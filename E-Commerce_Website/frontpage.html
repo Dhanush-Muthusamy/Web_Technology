@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Thrift Online - Products</title>
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="frontpage.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Logo -->
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Thrift Online</a>
+			</div>
+			<!-- Menu Items -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Thrift Online</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span
+								class="caret"></span></a>
+						<ul class="dropdown-menu">
+
+							<div class="container">
+								<div class="panel panel-categories">
+									<div class="panel-heading"></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-sm-4">
+												<h4>Clothing</h4>
+												<ul>
+													<li><a href="#">Women's Clothing</a></li>
+													<li><a href="#">Men's Clothing</a></li>
+													<li><a href="#">Children's Clothing</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-4">
+												<h4>Accessories</h4>
+											</div>
+											<div class="col-sm-4">
+												<h4>Home & Garden</h4>
+												<ul>
+													<li><a href="#">Furniture</a></li>
+													<li><a href="#">Kitchen & Dining</a></li>
+													<li><a href="#">Bedding & Bath</a></li>
+													<li><a href="#">Decor</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<form class="navbar-form navbar-left" action="/search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+
+			</div>
+		</div>
+	</nav>
+
+
+	<style>
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  max-width: 300px;
+		  margin: auto;
+		  text-align: center;
+		  font-family: arial;
+		  margin-bottom: 25px;
+		}
+	  
+		.card img {
+		  object-fit: cover;
+		  height: 350px;
+		  width: 100%;
+		}
+	  
+		.card h5 {
+		  font-size: 22px;
+		  color: #333;
+		  margin-bottom: 5px;
+		}
+	  
+		.card p {
+		  font-size: 18px;
+		  color: #888;
+		  line-height: 1.5em;
+		  margin-bottom: 10px;
+		}
+	  
+		.card a {
+		  text-decoration: none;
+		  font-size: 18px;
+		  color: #FFF;
+		  background-color: #007bff;
+		  border: none;
+		  border-radius: 5px;
+		  padding: 10px 20px;
+		  transition: background-color 0.5s ease;
+		}
+	  
+		.card a:hover {
+		  background-color: #0056b3;
+		  color: #FFF;
+		  transition: background-color 0.5s ease;
+		}
+	  </style>
+	  <div class="container">
+		<div class="row mt-5">
+		  <div class="col-md-4">
+			<div class="card">
+			  <img src="img/topwear/photo_2023-05-14_19-12-08.jpg" class="card-img-top" alt="Toffle Hoodies">
+			  <div class="card-body">
+				<h5 class="card-title">Toffle Hoodies</h5>
+				<p class="card-text">Super warm and cozy, super light. Pick your Winter Soldier NOW!!!</p>
+				<a href="#" class="btn btn-primary">Buy Now</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<div class="card">
+			  <img src="img/bottomwear/photo_2023-05-14_19-19-04.jpg" class="card-img-top" alt="Baggy Pants" style="height: 435px;">
+			  <div class="card-body">
+				<h5 class="card-title">Baggy Pants</h5>
+				<p class="card-text">Patch worked baggy pants. Get yours NOW!!!</p>
+				<a href="#" class="btn btn-primary">Buy Now</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<div class="card">
+			  <img src="img/shirt/photo_2023-05-14_19-25-39.jpg" class="card-img-top" alt="Shaket" style="height: 455px;">
+			  <div class="card-body">
+				<h5 class="card-title">Shaket</h5>
+				<p class="card-text">Vintage olive shakets. Book yours now!!!</p>
+				<a href="#" class="btn btn-primary">Buy Now</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+</body>
+
+</html>

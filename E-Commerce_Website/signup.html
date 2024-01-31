@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
+  max-width: 400px;
+  width: 100%;
+  display: none;
+}
+
+.form-container:first-child {
+  display: block;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #666666;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+    </style>
+  <head>
+    <title>Sign Up and Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      // JavaScript code
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add an event listener to the DOMContentLoaded event
+
+        const form = document.querySelector("form"); // Get the form element
+
+        form.addEventListener("submit", function (event) {
+          // Add an event listener to the submit event of the form
+          event.preventDefault(); // Prevent the default form submission behavior
+          window.location.href = "index.html"; // Redirect to "index.html"
+        });
+      });
+    </script>
+  </head> 
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <br>
+        <img src="10.jpg" alt="Logo" style="width:100px; height: 50pxpx; margin-left: 40%; " class="img-fluid"><br><br>
+        <h2 style="text-align: center; font-size: 24;">Sign Up</h2>
+        <form>
+          <input type="text" placeholder="Username" required>
+          <input type="email" placeholder="Email" required>
+          <input type="number" placeholder="Mobile Number" required>
+          <input type="password" placeholder="Password" required>
+          <input type="password" placeholder="Confirm Password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account?<a href="login.html">Log in</a></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,412 @@
+<html>
+
+<head>
+    <title>Second Chance [Thrift Store]</title>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="homepage.css"> -->
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .card {
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-info {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card-info h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #F44336;
+            margin-bottom: 5px;
+        }
+
+        .rating {
+            margin-top: 10px;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .rating-count {
+            font-size: 14px;
+            color: #999;
+            margin-left: 5px;
+        
+        }
+        footer p {
+  text-align: inherit;
+}
+ 
+footer a {
+  color: #fff;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+            <a class="navbar-brand mr-auto" href="homepage.html"><img src="10.jpg" alt="Logo"
+                    style="width:100px; margin-left: 20%;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownShop" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownShop">
+                            <h6 class="dropdown-header">Categories</h6>
+                            <a class="dropdown-item" href="toffle hoodies.html">Topwear</a>
+                            <a class="dropdown-item" href="bottomwear.html">Bottom wear</a>
+                            <a class="dropdown-item" href="shoe.html">Footwears</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Specials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline my-2 my-lg-0">
+                            <div class="input-group">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i
+                                            class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            
+            </div>
+        </nav>
+        <img src="img\shoe\Trainer-Collabs-HEADER-.webp" class="img-fluid" alt="Your Image Alt Text">
+        <!-- types of the product -->
+        <div class="row mt-3 " style="margin-left: 25px;">
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-52.jpg"alt="Product Image">
+                    <div class="card-info">
+                        <h2>Astro Boy Knee-Boots</h2>
+                        <p class="price">$199.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-55.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Salehe Bembury Finger-Print Inspired Crocs</h2>
+                        <p class="price">$199.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(3.7)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-56.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Choco-Brown High Heel Loafers</h2>
+                        <p class="price">$69.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-57.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Nike Lace-Up Sliders-Green</h2>
+                        <p class="price">$89.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <!--products-2-->
+        <div class="row mt-3 " style="margin-left: 25px;">
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-58 (2).jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>ZARA Formal Sandels</h2>
+                        <p class="price">$59.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-58 (3).jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Vels Color-Block Shoes</h2>
+                        <p class="price">$39.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.3)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-58.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Formal Sandels</h2>
+                        <p class="price">$10.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-59 (2).jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Chelsea Boots-Black</h2>
+                        <p class="price">$12.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+         <!--products-3-->
+         <div class="row mt-3 " style="margin-left: 25px;">
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-02-59.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Suede Finish Trainers</h2>
+                        <p class="price">$21.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(3.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-03-01.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>NIKE-Air Jorden-2s</h2>
+                        <p class="price">$25.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.3)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src="img\shoe\photo_2023-05-15_14-03-02 (2).jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Chunky Heavy Sole Boots</h2>
+                        <p class="price">$299.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card">
+                    <img src= "img\shoe\photo_2023-05-15_14-03-02.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2>Air Jorden-7s</h2>
+                        <p class="price">$25.99</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+
+                            <span class="rating-count">(4.0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+     <!-- footer -->
+
+  <footer class="page-footer font-small bg-dark text-light pt-4 mt-3">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Thrift Yours Online</h5>
+          <p>Get Your Dream Thrifted Wears at Best price.</p>
+  <p>Second Chance</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Connect With Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">Pinterest</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 Second Chance</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
